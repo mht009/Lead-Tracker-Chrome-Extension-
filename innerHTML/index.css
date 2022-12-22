@@ -1,0 +1,39 @@
+html, body{
+    text-align: center;
+    margin-top: 25px;
+}
+
+button{
+    width: auto;
+    height: auto;
+    padding: 15px 30px;
+    background: rgb(225, 64, 64);
+    color: azure;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 2px;
+    border: none;
+}
+
+.button-ani {
+    /* padding: 15px 25px; */
+    /* font-size: 24px; */
+    /* text-align: center; */
+    cursor: pointer;
+    /* outline: none; */
+    /* color: #fff; */
+    /* background-color: #04AA6D; */
+    border: none;
+    /* border-radius: 15px; */
+    // box-shadow: 0 9px #999;
+}
+
+.button-ani:hover {
+    background-color: #ffc907
+}
+
+.button-ani:active {
+    background-color: rgb(225, 64, 64);
+    box-shadow: 0 1px #666;
+    transform: translateY(1pt);
+}
